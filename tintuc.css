@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#main-menu{ 
+    height: 50px;
+    background-color:#ecf0f1;
+    padding-left: 5%; 
+    
+}
+ul#menu{ 
+    
+    line-height: 50px;
+    width: 100%;
+    height: auto; 
+    
+    
+    
+}
+ul#menu, ul#menu ul#sub {
+ 
+    padding:0;
+ 
+    margin: 0;
+ 
+}
+ 
+ul#menu li {
+      
+ 
+     list-style-type: none;    /* bỏ các dấu chấm tròn*/
+ 
+     float: left;    /*  để menu dàn hàng ngang*/
+ 
+     margin-right: 5%;    /* tạo lề cho 2menu chi'nh các menu*/
+ 
+}
+ 
+ul#menu li a { 
+    font-weight: bold;
+    
+ 
+text-decoration: none;
+ 
+color:#273c75;
+ 
+padding: 5px;
+ 
+ 
+}
+ 
+ul#menu li {
+ 
+position: relative;
+ 
+}
+ 
+ul#menu li ul#sub {
+ 
+display: none;
+ 
+position: absolute;
+ 
+width: 180px;
+ 
+}
+ 
+ul#menu li ul#sub li {
+ display: block;
+margin-top: 10px;
+margin-bottom: 5px;
+line-height: 20px;
+}
+
+ 
+ul#menu li:hover ul#sub  {
+display: block;
+z-index: 1;
+}  
+
+
+
+img {width: 100%;margin-bottom: 1.5%;}
+h2 {color: brown;margin-top: 2%;margin-bottom: 1%;}
+.p2{margin-top: 5%;}
+.p1{text-align: center;font-size: 200%;
+    font-weight: bolder;color: darkblue;margin-top: 3%;}
+
+
+
